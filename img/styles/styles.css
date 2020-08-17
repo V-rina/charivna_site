@@ -1,0 +1,120 @@
+@font-face {
+    font-family: CenturyGothicRegular;
+    src: url("../fonts/CenturyGothic/CenturyGothic.eot");
+    src: url("../fonts/CenturyGothic/CenturyGothic.ttf");
+    src: url("../fonts/CenturyGothic/CenturyGothic.woff"); 
+   }
+@font-face {
+    font-family: CenturyGothicBold; 
+    src: url("../fonts/CenturyGothic/CenturyGothic-Bold.eot");
+    src: url("../fonts/CenturyGothic/CenturyGothic-Bold.ttf");
+    src: url("../fonts/CenturyGothic/CenturyGothic-Bold.woff");
+   }
+@font-face {
+    font-family: CenturyGothicItalic; 
+    src: url("../fonts/CenturyGothic/CenturyGothic-Italic.eot");
+    src: url("../fonts/CenturyGothic/CenturyGothic-Italic.ttf");
+    src: url("../fonts/CenturyGothic/CenturyGothic-Italic.woff");
+}
+@font-face {
+    font-family: Philosopher; 
+    src: url("../fonts/Philosopher/Philosopher-BoldItalic.ttf");
+}
+
+i{
+	color:#5b5da8;
+}
+
+h2{
+color: #5b5da8;
+font-family: CenturyGothicRegular;
+font-size: 36px;
+font-weight: 400;
+text-transform: uppercase;
+}
+nav{
+	background-color: #f5f2f8;
+}
+a{
+color: #5b5da8;
+font-family: CenturyGothicRegular;
+}
+a:hover{
+	text-decoration: none;
+}
+.navbar-collapse ul li a{
+font-size: 14px;
+font-weight: 400; 
+}
+.navbar-brand ul li a{
+font-size: 12px;
+}
+ [class*="container"]{
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+@media (max-width: 992px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+        background-color:none;
+        border:1px solid #5b5da8;
+    }
+    .icon-bar{
+  background:#5b5da8 ;
+    }
+    .navbar-collapse {
+        border-top: 1px solid ;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .collapse.in{
+        display:block !important;
+    }
+}
+   .icons_nav:before{
+   	content: "";
+   	position: absolute;
+   	top:-4px;
+   	left:0;
+   	background: url("../img/header_icons.png");
+   	background-position: 0px 0px;
+   	display: block;
+width: 37px;
+height: 33px;
+color: #5b5da8;
+   }
+   .icons_nav+.icons_nav:before{
+	background-position: 37px -1px;
+   }
+   .navbar_left.list-inline {
+padding-top: 15px;
+padding-bottom: 15px;
+margin-bottom:0;
+    }
+    
+ 
